@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       CC544021-33E5-48D4-83A7-1ADC4B2C1E88
+:END:
+#+title: GRC
+#+filetags: 
+#+date: [2023-10-05 Thu 16:12]
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1AE2EF46-AF9F-4CC0-B4E5-3432489C5FC9
+:END:
+#+title: Availability
+#+filetags: 
+#+date: [2023-10-05 Thu 15:58]
+

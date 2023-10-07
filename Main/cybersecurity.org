@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       BD92E4E0-634A-4398-B211-EB9C4DE9DBA1
+:END:
+#+title: Cybersecurity
+#+filetags: 
+#+date: [2023-09-28 Thu 18:54]
+
+Cybersecurity is the practice of ensuring data is safe from unauthorized access, changes, unlawful use, disruption, etc.
+
+* Cybersecurity Basics
+[[id:F8369DCA-0CF0-4FBE-B74A-A335214B68DB][CIA Triad]]
+
+* Specializations
+
+[[id:998AA39E-7756-4142-9473-409A695859CB][DFIR]]
+
+[[id:005C8CEF-F349-4DCF-ADD7-AF759A376D20][Network Security]]
+
+[[id:9D1D0454-F6C3-4147-9D67-5FE0B81C4A69][Application Security]]
+
+

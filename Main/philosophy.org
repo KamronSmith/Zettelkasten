@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       F546AF1A-9EB7-46F7-A6E2-509F2BF0A1F9
+:END:
+#+title: Philosophy
+#+filetags: 
+#+date: [2023-09-28 Thu 06:22]
+
+Philosophy is for living a good life.
+
+* The Path
+-----
+[[id:E26876C9-859D-48C8-87C0-4E942ADE6B12][The Manual]]
+
+* Topics
+---------
+[[id:F768132F-E60E-4703-9AEF-9160736AC6AF][Fate]]
+[[id:9C9720D5-92E7-4828-A8E3-CFD5E608FD5C][Suffering]]
+[[id:53D251CD-79D0-40E2-B7BB-E40DF6F1E0F3][The Idea Of Self]]
+[[id:C7DFE650-7899-4A0C-8037-05A8D8AC9441][Purpose]]
+[[id:CAE9CAC8-F15D-497F-AB8F-EEF0FEC14287][Manhood]]

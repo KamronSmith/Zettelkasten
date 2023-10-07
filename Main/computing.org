@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       6E9C55EA-ABC2-42ED-9FC3-E1EC6B99CC54
+:END:
+#+title: Computing
+#+filetags: 
+#+date: [2023-09-28 Thu 06:25]
+
+[[id:BD92E4E0-634A-4398-B211-EB9C4DE9DBA1][Cybersecurity]]
+
+[[id:E03E3654-61A4-4564-B3E6-1064EC63C8D2][Programming]]

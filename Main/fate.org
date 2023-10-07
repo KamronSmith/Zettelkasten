@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       F768132F-E60E-4703-9AEF-9160736AC6AF
+:END:
+#+title: Fate
+#+filetags: 
+#+date: [2023-09-28 Thu 06:26]
+
+Chrysippus defines fate as "an orderly series, established by nature, of all events, following one another and joined together from eternity, and their unalterable independence."

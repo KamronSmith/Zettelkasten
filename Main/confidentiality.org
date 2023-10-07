@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       D0D5D4A8-5A49-409D-8169-AD32AE6BF351
+:END:
+#+title: Confidentiality
+#+filetags: 
+#+date: [2023-10-05 Thu 15:57]
+

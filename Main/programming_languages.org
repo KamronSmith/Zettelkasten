@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1A540F20-AC0C-4948-9D3E-81EE1ACC74FD
+:END:
+#+title: Programming Languages
+#+filetags: 
+#+date: [2023-10-02 Mon 10:25]
+
+[[id:71BD2AEF-A836-4CCE-91E7-0A75D63142F8][Emacs Lisp]]

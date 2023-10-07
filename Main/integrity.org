@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       B619E3E2-864F-4D53-B161-73DD939F1A0C
+:END:
+#+title: Integrity
+#+filetags: 
+#+date: [2023-10-05 Thu 15:58]
+

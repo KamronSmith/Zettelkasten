@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6FF126CE-8721-4D8B-9968-7E06406DA11F
+:END:
+#+title: Dichotomy of control
+#+filetags: 
+#+date: [2023-09-28 Thu 06:52]
+

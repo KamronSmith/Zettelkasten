@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       E26876C9-859D-48C8-87C0-4E942ADE6B12
+:END:
+#+title: The Manual
+#+filetags: 
+#+date: [2023-09-28 Thu 06:28]
+

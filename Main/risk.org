@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       BBC9BF44-FF7F-48AF-97DE-4A2104E6C006
+:END:
+#+title: Risk
+#+filetags: 
+#+date: [2023-10-05 Thu 16:14]
+

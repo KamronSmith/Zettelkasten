@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       F2A07B63-B8A3-472D-AA34-93881AD3FF19
+:END:
+#+title: Cybersecurity Incident
+#+filetags: 
+#+date: [2023-09-28 Thu 18:56]
+

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       E059DE63-07ED-4A08-A18B-0F4D498CE2AE
+:END:
+#+title: Incident Handling
+#+filetags: 
+#+date: [2023-09-28 Thu 18:54]
+
+Incident handling is a clearly defined set of procedures to manage and respond to security [[id:F2A07B63-B8A3-472D-AA34-93881AD3FF19][incidents]] in a computer or network environment.
+

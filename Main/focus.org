@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8151E623-0F0E-405A-8709-527875302D0C
+:END:
+#+title: Focus
+#+filetags: 
+#+date: [2023-09-28 Thu 06:47]
+

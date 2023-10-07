@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       C7DFE650-7899-4A0C-8037-05A8D8AC9441
+:END:
+#+title: Purpose
+#+filetags: 
+#+date: [2023-09-28 Thu 06:27]
+

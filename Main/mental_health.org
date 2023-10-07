@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       A33C596E-5B44-4ED3-BDB2-6D420DFA6A64
+:END:
+#+title: Mental Health
+#+filetags: 
+#+date: [2023-09-28 Thu 06:23]
+
+* Components of mental health
+** Emotional health
+** Physical health
+** Spirituality
+** Relationship health

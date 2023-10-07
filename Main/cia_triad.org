@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       F8369DCA-0CF0-4FBE-B74A-A335214B68DB
+:END:
+#+title: CIA Triad
+#+filetags: 
+#+date: [2023-10-05 Thu 15:55]
+
+The CIA triad is essentially the main goal of most cybersecurity professionals, where the goal is to protect the:
+
+[[id:D0D5D4A8-5A49-409D-8169-AD32AE6BF351][Confidentiality]],
+
+[[id:B619E3E2-864F-4D53-B161-73DD939F1A0C][Integrity]],
+
+[[id:1AE2EF46-AF9F-4CC0-B4E5-3432489C5FC9][Availability]]
+
+of data.

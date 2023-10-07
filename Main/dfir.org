@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       998AA39E-7756-4142-9473-409A695859CB
+:END:
+#+title: DFIR
+#+filetags: 
+#+date: [2023-10-05 Thu 16:01]
+
+[[id:25F81C4C-1610-4F9D-A464-6630EA074B56][Digital Forensics]] and [[id:E059DE63-07ED-4A08-A18B-0F4D498CE2AE][Incident Response]] is a discipline of [[id:BD92E4E0-634A-4398-B211-EB9C4DE9DBA1][Cybersecurity]].

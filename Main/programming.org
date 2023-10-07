@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       E03E3654-61A4-4564-B3E6-1064EC63C8D2
+:END:
+#+title: Programming
+#+filetags: 
+#+date: [2023-10-02 Mon 10:24]
+
+[[id:1A540F20-AC0C-4948-9D3E-81EE1ACC74FD][Programming Languages]]

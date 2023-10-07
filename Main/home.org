@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       BD369A47-4D28-4DE2-AE4C-5B289A6B7199
+:END:
+#+title: Home
+#+filetags: 
+#+date: [2023-09-28 Thu 04:34]
+
+This is the home note for my Zettelkasten.
+
+[[id:F546AF1A-9EB7-46F7-A6E2-509F2BF0A1F9][Philosophy]]
+
+[[id:A33C596E-5B44-4ED3-BDB2-6D420DFA6A64][Mental Health]]
+
+[[id:B15D7E5F-8F77-40A9-9873-98057701F1BD][Career]]
+
+[[id:FFC34BDF-2077-402E-92C6-9F19646361E2][Learning]]
+
+[[id:96706227-2761-42F4-B499-8264AB94BC43][Productivity]]
+
+[[id:6E9C55EA-ABC2-42ED-9FC3-E1EC6B99CC54][Computing]]
+
+[[id:57BDA6BD-057B-4466-A536-ECE20B1B2045][Leadership]]

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9D1D0454-F6C3-4147-9D67-5FE0B81C4A69
+:END:
+#+title: Application Security
+#+filetags: 
+#+date: [2023-10-05 Thu 15:51]
+

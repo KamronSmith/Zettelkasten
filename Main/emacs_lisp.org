@@ -1,0 +1,94 @@
+:PROPERTIES:
+:ID:       71BD2AEF-A836-4CCE-91E7-0A75D63142F8
+:END:
+#+title: Emacs Lisp
+#+filetags: 
+#+date: [2023-10-02 Mon 10:25]
+
+* Flow Control
+(if (condition)
+     (execute if condition true)
+  (execute if condition false))
+
+  /ex/
+
+ (if (eq (what-line) "Line 20")
+     (princ "I am at line 20")
+ (princ "I am not at line 20"))
+
+* Writing Functions
+
+(defun function-name (parameter1 parameter2 etc.)
+       (code to execute))
+
+ /ex/
+
+ (defun add-numbers (num1 num2)
+      (+ num1 num2))
+
+* Interacting with Emacs
+The main functions i will care about for now is inserting text and moving around the buffer. I wanna learn how to make and control buffers.
+
+(search-forward "hello")
+some test text
+some more text
+Hello
+some end text
+
+(search-backward)
+
+(goto-char 0)
+
+(goto-char (point-max))
+(goto-char (point-min))
+
+ Return the cursor to where it started
+ (save-excursion)
+
+* Exposing your functions to Emacs
+In order to make the function callable from the M-x interface, you have to use the (interactive) keyword. This is the format of an interactive function.
+
+(defun function-name (param1, param2, ...)
+     "String describing the function and what param1 and param2 are used for"
+     (interactive "special string to fetch your params")
+     (statement 1 to execute)
+     (statement 2 to execute)
+     (...))
+
+ The special string used to get the parameters is made of character codes that are followed by text to display in the buffer. The code characters for interactive can be found in the manual.
+
+ You can ask for multiple inputs by separating the inputs on a new line
+ (interactive "Mname:\nMPlace")
+
+* Next steps
+learning list processing
+
+getting and switching between buffers
+ list operations
+loops and recursion
+ binding functions to keys
+
+* Fundamental functions
+** Car and cdr
+The car of a list is the first item of the list.
+The cdr of a list is the rest of the list, that isnt the first item. The cdr returns a list.
+** cons
+The cons of a list constructs a list
+** nthcdr
+** nth
+** setcar
+** setcdr
+
+* Buffer operations
+(buffer-name)
+(buffer-file-name)
+
+gets the current buffer
+(current-buffer)
+
+gets the most recently selected buffer other than the one you are in currently
+(other-buffer)
+
+(switch-to-buffer)
+
+
