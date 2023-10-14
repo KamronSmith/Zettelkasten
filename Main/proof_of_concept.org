@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7B5ADD17-D1DD-4448-BCA4-0149D79F7F65
+:END:
+#+title: Proof-of-concept
+#+filetags: 
+#+date: [2023-10-12 Thu 13:20]
+

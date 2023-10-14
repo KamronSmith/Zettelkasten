@@ -1,0 +1,59 @@
+PROPERTIES:
+:ID:       CE99642E-DBBC-45B6-83B6-45FD2C7552D2
+:END:
+#+title: Metasploit
+#+filetags: 
+#+date: [2023-10-11 Wed 14:47]
+
+* What can Metasploit do?
+- Runs reconnaissance scripts to [[id:F2DBC35D-8597-4FB2-BF3B-BB99F79D6DA7][enumerate]] remote hosts and compromised targets.
+- Verification scripts to test the existence of a vulnerability without actually compromising the target
+- Meterpreter, which is a great tool to connect to shells and run commands on the compromised targets.
+- Many post-exploitation and pivoting tools.
+- Contains many inbuilt exploits for [[id:F35B9204-6985-4D32-8C2A-AE5A9663B399][public vulnerabilities]].
+
+* How to use?
+** Starting
+#+begin_src code
+msfconsole
+#+end_src
+
+** Searching for exploits
+#+begin_src code
+search exploit <exploit name>
+#+end_src
+
+** Using exploits
+#+begin_src code
+use <exploit>
+#+end_src
+
+** Showing options
+With a specific exploit selected,
+
+#+begin_src code
+show options
+#+end_src>
+
+Any option with required that is set to yes is *required* in order for the exploit to work. 
+
+** Setting options
+With a specific exploit selected, 
+
+#+begin_src code
+set <option name> <value>
+#+end_src>
+
+** Checking if a host is vulnerable
+With a specific exploit selected,
+
+#+begin_src code
+check
+#+end_src>
+
+** Running the exploit
+With a specific exploit selected,
+
+#+begin_src code
+run //or exploit
+#+end_src> 

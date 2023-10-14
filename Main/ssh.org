@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6F94B596-3774-4ECA-A902-13447807BB11
+:END:
+#+title: SSH
+#+filetags: 
+#+date: [2023-10-09 Mon 10:38]
+

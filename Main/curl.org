@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       783A30E8-53FD-409E-B847-6E84AFD2DEB4
+:END:
+#+title: cURL
+#+filetags: 
+#+date: [2023-10-11 Wed 13:54]
+
+* What is cURL?
+cURL is a tool that can download many things.
+
+* Grabbing Server headers
+#+begin_src code
+curl -IL <fqdn> or <ip address:port>
+#+end_src
+
+* Command line options

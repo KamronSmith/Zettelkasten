@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       0EDDF82E-8069-4F69-A00D-175547662C4C
+:END:
+#+title: Service scanning
+#+filetags: 
+#+date: [2023-10-09 Mon 10:41]
+
+* What is service scanning?
+Service scanning is the process of looking for all of the available [[id:2A33F0B1-DB11-4D74-8938-6DE895A44DE7][Computer service]]s on a server or a computer, usually for the purpose of using it to do unintended actions.
+
+* How do I scan for services?
+You can use a tool called [[id:7A608B62-27A3-4C3B-8754-4016B6079A82][Nmap]].
+
+* Services
+** FTP
+** SMB
+[[id:C23D2DE8-BFC8-46B2-9239-3565CDCE7664][SMB]] or *Server Message Block* is a widely used protocol on Windows machines that offers many vectors for vertical and lateral movement. Sensitive data can be stored in network file shares, and there are highly vulnerable SMB versions. To get the version of SMB running on the remote host, use the following nmap script:
+#+begin_src code
+nmap --script smb-os-discovery.nse -p445 <host ip address>
+#+end_src
+
+Another tool that can interact with *SMB* is [[id:EC9956D0-9DCE-4B6A-B618-49FA27E01572][Smbclient]]. Lets enumerate the shares on a remote host:
+
+#+begin_src code
+smbclient -N -L \\\\<host ip address> // -N suppresses the password prompt and -L lists the available shares
+#+end_src
+
+Lets connect with the credentials for the user /bob/:
+
+#+begin_src code
+smbclient -U \\\\<host ip address>
+#+end_src>

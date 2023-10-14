@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       ADCB2E5F-8A35-4226-A5A3-35A0679E043C
+:END:
+#+title: Action
+#+filetags: 
+#+date: [2023-10-09 Mon 20:38]
+
+* Where does action come from?
+** Reflex
+Reflexes are actions that are basically there at birth, like dogs knowing how to swim.
+** Habits
+Habits are actions that have been trained over and over to become automatic.
+** Thoughts
+Thoughts

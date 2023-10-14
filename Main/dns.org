@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       18197923-D90D-45B0-84FB-3F99E1D80ADF
+:END:
+#+title: DNS
+#+filetags: 
+#+date: [2023-10-09 Mon 16:20]
+

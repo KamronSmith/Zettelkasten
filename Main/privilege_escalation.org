@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       84D070A7-6478-4D7C-9B21-7235742FDCCC
+:END:
+#+title: Privilege escalation
+#+filetags: 
+#+date: [2023-10-11 Wed 20:39]
+
+Usually when you gain access to a box you are a low privileged user, which just will not do. To gain higher privileges, you will need to find a local vulnerability to exploit.
+
+* Common Methods
+** PrivEsc checklists
+** Enumeration Scripts
+** Kernel exploits
+** Vulnerable software
+** User privileges
+** Scheduled Tasks
+** Exposed Credentials
+** SSH keys 

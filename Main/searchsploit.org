@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       1D92BC1F-F2E2-4B15-8E82-BA45C72FB905
+:END:
+#+title: Searchsploit
+#+filetags: 
+#+date: [2023-10-11 Wed 14:40]
+
+* What is searchsploit?
+Searchsploit is a public database of exploits that is searchable.
+
+* Using searchsploit
+#+begin_src code
+searchsploit 
+#+end_src
+** Commandline options
+#+begin_src code
+--cve // search for CVE value
+-e // exact searching
+-x // opens the exploit in $PAGER
+--nmap <file.xml> // Checks all the results in Nmap's XML output with the service version eg nmap <host> -sV -oX file.xml
+#+end_src

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       B4896276-9B82-47E4-9DA4-7DEB89D4DEB6
+:END:
+#+title: Lateral movement
+#+filetags: 
+#+date: [2023-10-12 Thu 13:20]
+

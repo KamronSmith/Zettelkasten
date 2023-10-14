@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       F627B073-785C-4E5A-BE07-B92C82726C82
+:END:
+#+title: Web Server
+#+filetags: 
+#+date: [2023-10-09 Mon 10:30]
+
+* What is a web server?
+A web server is an application that runs on a backend server that routes the [[id:8CC6662D-95B9-4F98-AE47-D298B2A42E42][HTTP]] traffic from clientside to the request destination pages.
+
+* Web servers and vulnerabilities
+There are many different types of vulnerabilities that can affect a web server. Because they are exposed to the internet, they offer an enormous attack surface, making them easy to target for attackers.
+
+The [[id:71A15199-0456-42A6-A854-F52881542E4B][OWASP Top 10]] is a list of the top ten web application vulnerabilities that is maintained by the Open Web Application Security Project (OWASP). Web application security assessments are often started around the OWASP top 10 as an initial starting point.
+
+* Web Enumeration
+[[id:D09255D6-4741-4D34-BF80-56858E4B4DE8][Web enumeration]]

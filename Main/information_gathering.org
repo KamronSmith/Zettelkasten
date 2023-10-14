@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       F9B50BC1-4FD3-47ED-8317-997EAE024C80
+:END:
+#+title: Information gathering
+#+filetags: 
+#+date: [2023-10-12 Thu 13:18]
+
+* There are 4 types of information that is relevant to us
+** Open source intelligence
+OSINT a process for finding publicly available information on a target company or individuals that allows the identification of events, external and internal dependencies, and connections. 
+
+** Infrastructure enumeration
+When we enumerate the companies' infrastructure, we are evaluating the companies position on the internet and intranet. For this we can use ~OSINT~ and active scans. We use services like [[id:18197923-D90D-45B0-84FB-3F99E1D80ADF][DNS]] to create a map of of the client's servers and hosts to develop an understanding of their infrastructure. We make an accurate list of hosts and their IP addresses and compare them to the scope made in the [[id:826D1A04-CB29-4500-8E8F-739AC989D219][Pre-engagement]] phase and see if they are included.
+
+We also try to determine the companies security measures. The more precise the information, the easier it will be to diguise our attacks ([[id:F43741AA-E9E5-45B6-A0B4-9E25088CDA49][Evasive testing]]).
+
+** Service enumeration
+In service enumeration, we identify the [[id:2A33F0B1-DB11-4D74-8938-6DE895A44DE7][services]] that allow us to interact with the host or server over the network. It is crucial to find the service, what ~version~ it is, what ~information~ it gives us, and the ~reason~ it can be used.
+
+** Host enumeration
+Once we have a detailed list of the customers' infrastructure, we examine every single host listed in the scoping document. We try to identify the [[id:8A85D618-7EF1-4C1C-B388-A7537C40203B][operating system]] the host is using, what ~services~ it uses, which ~versions~ of those services it uses, and more.
+
+During host internal host enumeration, we try to determine what role this host or server plays, and what network component it communicates with.

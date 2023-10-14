@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       82220160-C50E-4F84-8387-0E2064ED6FDE
+:END:
+#+title: Motivation
+#+filetags: 
+#+date: [2023-10-09 Mon 20:09]
+
+* What is motivation?
+Motivation is a combination of many different factors, biological, psychological, neuroscientific, spiritual, and environmental factors all play a role in motivation.
+
+The ancient yogis discovered that motivation is the ability to hold one thought persistently in the mind. The yogis called this a "concentrated mind" or a "one-pointed mind". When you become less motivated, there are different thoughts trickling into the mind, and you become less concentrated on it.
+
+* There are 3 discrete components to motivation
+** Intents
+Where our goals and directions come from
+** Resistance
+[[id:861F8BE7-9495-4442-9D4D-523ED5E42E7D][Emotions]] and [[id:53D251CD-79D0-40E2-B7BB-E40DF6F1E0F3][The Idea Of Self]] 
+** Action
+[[id:ADCB2E5F-8A35-4226-A5A3-35A0679E043C][Action]] 

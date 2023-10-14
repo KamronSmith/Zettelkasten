@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       BA41AF38-66B2-43BF-9CA6-0FC4E69045CD
+:END:
+#+title: TCP
+#+filetags: 
+#+date: [2023-10-09 Mon 10:24]
+

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       04CE3F14-787F-4A40-AE39-C6472AC8255E
+:END:
+#+title: Gobuster
+#+filetags: 
+#+date: [2023-10-11 Wed 13:19]
+
+* What can Gobuster do?
+Gobuster can perform [[id:18197923-D90D-45B0-84FB-3F99E1D80ADF][DNS]] and DNS subdomains, vhost, and directory bruteforcing. It can also [[id:F2DBC35D-8597-4FB2-BF3B-BB99F79D6DA7][enumerate]] Amazon S3 buckets.
+
+* Usage
+** File / Directory Enumeration
+#+begin_src code
+gobuster dir -u http://<ip address> -w <path to wordlist>
+#+end_src
+** Commandline Options
+#+begin_src code
+-w // path to wordlist
+#+end_src

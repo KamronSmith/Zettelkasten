@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       826D1A04-CB29-4500-8E8F-739AC989D219
+:END:
+#+title: Pre-engagement
+#+filetags: 
+#+date: [2023-10-12 Thu 13:18]
+
+* What to do in pre-engagement?
+This is the preparation for the actual penetration test.
+* Consists of 3 main components:
+** Scoping Questionnaire
+** Pre-engagement meeting
+** Kick off meeting
+

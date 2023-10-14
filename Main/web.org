@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3A57660A-3F41-4242-9995-F3DE6B1D3F7A
+:END:
+#+title: Web
+#+filetags: 
+#+date: [2023-10-09 Mon 10:30]
+
+[[id:F627B073-785C-4E5A-BE07-B92C82726C82][Web Server]]

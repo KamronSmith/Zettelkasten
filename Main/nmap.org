@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       7A608B62-27A3-4C3B-8754-4016B6079A82
+:END:
+#+title: Nmap
+#+filetags: 
+#+date: [2023-10-09 Mon 15:02]
+
+* What is Nmap?
+Nmap is a networking mapping tool used for scanning for [[id:2A33F0B1-DB11-4D74-8938-6DE895A44DE7][Computer service]]s and [[id:EEB33DC5-9430-490C-8178-5D7AA160E75C][Network Port]]s on a network.
+
+* Useful commandline options
+#+begin_src code
+nmap -sC :: Makes the nmap scripts try to obtain more information
+nmap -sV :: Makes nmap perform a version scan
+nmap -p- :: Makes nmap scan all 65535 ports
+#+end_src
+
+* Scripts
+Nmap can be made to run with custom scripts for specific purposes.
+
+The syntax for using an nmap script is as follows:
+#+begin_src code
+nmap --script <script name> -p<port> <host>
+#+end_src
+
+* Presets
+** Fast but everything
+#+begin_src code
+nmap -T5 -A -p- --min-rate=500 <ip address>
+#+end_src>

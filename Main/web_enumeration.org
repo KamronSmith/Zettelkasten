@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       D09255D6-4741-4D34-BF80-56858E4B4DE8
+:END:
+#+title: Web enumeration
+#+filetags: 
+#+date: [2023-10-09 Mon 16:12]
+
+* Why is proper web enumeration important?
+Often when performing [[id:0EDDF82E-8069-4F69-A00D-175547662C4C][Service scanning]], you will discover [[id:F627B073-785C-4E5A-BE07-B92C82726C82][Web Server]]s running on ports 80 and 443 ([[id:8CC6662D-95B9-4F98-AE47-D298B2A42E42][HTTP]]). Webservers host web apps and 1. Have a large attack surface and 2. Are high value targets. Enumerating these servers properly is the key to success when attacking web servers.
+
+* Tools
+** Gobuster / ffuf
+Gobuster is a tool that allows [[id:18197923-D90D-45B0-84FB-3F99E1D80ADF][DNS]], vhost, and directory brute-forcing. Here is a simple scan using gobuster:
+#+begin_src code
+gobuster dir -u http://<ip address> -w /usr/share/dirb/wordlists/common.txt
+#+end_src 
+
+The returning HTTP code will tell you about what happened during the scan.
+
+| Status Code | Meaning                 |
+|         200 | Success                 |
+|         403 | Forbidden/Access Denied |
+|         301 | Redirected              |
+

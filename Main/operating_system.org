@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8A85D618-7EF1-4C1C-B388-A7537C40203B
+:END:
+#+title: Operating System
+#+filetags: 
+#+date: [2023-10-09 Mon 10:22]
+

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9E4792D7-90B4-49D0-8F8C-37BD645D388D
+:END:
+#+title: Networking
+#+filetags: 
+#+date: [2023-10-09 Mon 10:14]
+
+* Networking Basics
+[[id:EEB33DC5-9430-490C-8178-5D7AA160E75C][Network Port]]
+[[id:2A33F0B1-DB11-4D74-8938-6DE895A44DE7][Computer service]]

@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       EEB33DC5-9430-490C-8178-5D7AA160E75C
+:END:
+#+title: Network Port
+#+filetags: 
+#+date: [2023-10-09 Mon 10:14]
+
+* What is a port?
+A port are a networking concept that lets computers differentiate different types of traffic from each other. They are software based and managed by the [[id:8A85D618-7EF1-4C1C-B388-A7537C40203B][Operating System]].
+
+* Categories of ports
+There are two different categories of ports, [[id:BA41AF38-66B2-43BF-9CA6-0FC4E69045CD][TCP]] and [[id:FD6E5614-CF5D-4309-82B3-5A5581DF5A55][UDP]].
+- TCP is a connection based protocol which means that the [[id:807DF75F-B2BA-4895-A786-621691FDEB18][TCP handshake]] has to complete before any data is sent.
+- UDP is a connectionless protocol, which means that there is unreliability because there is no guarantee of data delivery.
+
+* Common Windows ports
+| Protocol               | Port Number |
+| Remote Desktop Service |        3389 |
+
+* Common Linux ports
+| Protocol | Port Number |
+| SSH      |          22 |

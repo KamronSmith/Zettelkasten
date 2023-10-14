@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       2A33F0B1-DB11-4D74-8938-6DE895A44DE7
+:END:
+#+title: Computer service
+#+filetags: 
+#+date: [2023-10-09 Mon 15:03]
+
+* What is a service
+A service is 

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       49DE1553-F498-420D-8253-DB58C95267D8
+:END:
+#+title: CVE
+#+filetags: 
+#+date: [2023-10-11 Wed 14:43]
+

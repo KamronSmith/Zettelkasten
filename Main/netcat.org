@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       883260F6-A296-426E-BE31-4B0833572791
+:END:
+#+title: Netcat
+#+filetags: 
+#+date: [2023-10-09 Mon 10:38]
+
+* Useful commandline options
+#+begin_src bash
+-l // listen mode, to wait for a connection
+-v // verbose
+-n // disable dns resolution
+-p // port number to listen on
+#+end_src>

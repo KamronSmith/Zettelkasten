@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       C23D2DE8-BFC8-46B2-9239-3565CDCE7664
+:END:
+#+title: SMB
+#+filetags: 
+#+date: [2023-10-09 Mon 15:53]
+

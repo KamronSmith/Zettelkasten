@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       F2DBC35D-8597-4FB2-BF3B-BB99F79D6DA7
+:END:
+#+title: Enumeration
+#+filetags: 
+#+date: [2023-10-11 Wed 13:21]
+
+* Types of enumeration
+** Services
+[[id:0EDDF82E-8069-4F69-A00D-175547662C4C][Service scanning]]
+** Web
+*** File / Directory
+When performing web [[id:FF0C46A5-A082-4B01-8C86-F0C1F8C62C92][penetration test]] it is important to look for files and directories that you would not normally have access to. One of the ways this can be done is file and directory enumeration. A tool that can be used to accomplish this is [[id:04CE3F14-787F-4A40-AE39-C6472AC8255E][Gobuster]].
+
+*** DNS
+Gobuster can also enumerate the subdomains of a given domain.
+
+*** Certificates
+[[id:5084EA4D-DF42-42AD-9DF6-7A04E3790C3F][TLS]] certificates can be valuable information if [[id:E3E352FE-BC57-4A28-A599-780A619E136B][HTTPS]] is in use. Looking at the [[id:A02A40F2-82DD-488E-A1D6-F60A4ACA0641][certificates]] in use can reveal the name of the company and an email address, which can be useful if trying to perform [[id:E773EDDF-5DD5-456E-BAAD-E4551AB6B391][phishing]].
+
+*** Banners / Web Headers
+[[id:F627B073-785C-4E5A-BE07-B92C82726C82][Web Server]] headers / banners provide a good indication of what frameworks the web server is using, the authentication options, and whether the web server is missing some essential security patches. The tool [[id:783A30E8-53FD-409E-B847-6E84AFD2DEB4][cURL]] can fetch server web headers.
+
+[[id:50472B6B-75C4-4CDE-8CC5-A971E3A7C320][Whatweb]] is a tool that can grab the version of web servers, supporting frameworks, and in-use applications.
+
+*** Robots.txt
+Websites often contain a robots.txt file, which tells search engine indexers like Google what files they are allowed to index. Looking at this file may allow you to uncover secret files that you may not normally know about.
+
+*** Source Code
+You can view the source code of a website in a browser with CMD-U, or CTRL-U. When looking at the source code, you may find things that the developers of the website left behind, like admin credentials.

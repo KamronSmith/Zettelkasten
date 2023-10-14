@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       EC9956D0-9DCE-4B6A-B618-49FA27E01572
+:END:
+#+title: Smbclient
+#+filetags: 
+#+date: [2023-10-09 Mon 16:00]
+

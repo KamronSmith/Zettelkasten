@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       A02A40F2-82DD-488E-A1D6-F60A4ACA0641
+:END:
+#+title: Certificates
+#+filetags: 
+#+date: [2023-10-11 Wed 14:01]
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       239D5B2E-47A4-47C3-A66C-603ADF454DAC
+:END:
+#+title: Tmux
+#+filetags: 
+#+date: [2023-10-09 Mon 10:39]
+
